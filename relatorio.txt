@@ -1,0 +1,91 @@
+--------------------------------------------------
+USUÁRIO NÚMERO 1
+=====FIRST IN FIRST OUT=====
+Aleatórios puros:0.0005463579989736899 segundos 
+Cache miss 5
+Números de poisson:0.0006689399990136736 segundos.
+Cache miss 4
+Aleatórios com mais probabilidade:0.0009776800012332386 segundos.
+Cache miss 1
+=====LEAST FREQUENTLY USED ====
+Aleatórios puros:0.0009195357997668907 segundos 
+Cache miss 5
+Números de poisson:5 segundos.
+Cache miss 5
+Aleatórios com mais probabilidade:0.07011779580061557 segundos.
+Cache miss 5
+=====LEAST RECENTLY USED ====
+Aleatórios puros:0.05991873079910874 segundos 
+Cache miss 5
+Números de poisson:0.19023289140168345 segundos.
+Cache miss 5
+Aleatórios com mais probabilidade:0.23035723280045203 segundos.
+Cache miss 5
+--------------------------------------------------
+USUÁRIO NÚMERO 2
+=====FIRST IN FIRST OUT=====
+Aleatórios puros:0.07935663879907225 segundos 
+Cache miss 0
+Números de poisson:0.06991544959892053 segundos.
+Cache miss 0
+Aleatórios com mais probabilidade:0.06994526560156374 segundos.
+Cache miss 0
+=====LEAST FREQUENTLY USED ====
+Aleatórios puros:0.08004794860025868 segundos 
+Cache miss 5
+Números de poisson:4 segundos.
+Cache miss 4
+Aleatórios com mais probabilidade:0.06986349199723918 segundos.
+Cache miss 4
+=====LEAST RECENTLY USED ====
+Aleatórios puros:0.2801263707995531 segundos 
+Cache miss 5
+Números de poisson:0.33068871120049154 segundos.
+Cache miss 5
+Aleatórios com mais probabilidade:0.419766043999698 segundos.
+Cache miss 5
+--------------------------------------------------
+USUÁRIO NÚMERO 3
+=====FIRST IN FIRST OUT=====
+Aleatórios puros:0.06981604140019045 segundos 
+Cache miss 0
+Números de poisson:0.06944479179801419 segundos.
+Cache miss 0
+Aleatórios com mais probabilidade:0.08161231439880794 segundos.
+Cache miss 0
+=====LEAST FREQUENTLY USED ====
+Aleatórios puros:0.0584398492006585 segundos 
+Cache miss 5
+Números de poisson:5 segundos.
+Cache miss 5
+Aleatórios com mais probabilidade:0.07993895260005957 segundos.
+Cache miss 5
+=====LEAST RECENTLY USED ====
+Aleatórios puros:0.45988090339960763 segundos 
+Cache miss 5
+Números de poisson:0.9299823659996036 segundos.
+Cache miss 5
+Aleatórios com mais probabilidade:1.0101877464010613 segundos.
+Cache miss 5
+--------------------------------------------------
+MÉDIA DE TEMPO DAS CHAMADAS ALEÁTORIAS DE CADA ALGORITMO PARA OS 3 USUÁRIOS
+
+=====FIRST IN FIRST OUT=====
+USER 1: 0.0007309926664068674 segundos 
+USER 2: 0.0730724513331855 segundos 
+USER 3: 0.07362438253233754 segundos 
+--------------------------------------------------
+=====LEAST FREQUENTLY USED=====
+USER 1: 1.6903457772001274 segundos 
+USER 2: 1.383303813532499 segundos 
+USER 3: 1.7127929339335726 segundos 
+--------------------------------------------------
+=====LEAST RECENTLY USED=====
+USER 1: 0.16016961833374807 segundos 
+USER 2: 0.3435270419999142 segundos 
+USER 3: 0.8000170052667576 segundos 
+--------------------------------------------------
+=====MÉDIA GERAL=====
+FIFO:0.14742782653192993 
+LFU: 4.7864425246661995 
+LRU: 1.3037136656004198 
